@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Jupiter Toys test suite">
+  <test name="Test Case 1">
+      <classes>
+      <class name="com.qa.jupiter.tests.TestCase1"/>
+      </classes>
+  </test> <!-- Test --> 
+   
+   
+  <test name="Test Case 2">    
+    <classes>
+       <class name="com.qa.jupiter.tests.TestCase1"/>
+    </classes>
+     
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
