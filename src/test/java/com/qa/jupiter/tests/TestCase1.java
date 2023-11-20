@@ -15,6 +15,7 @@ public class TestCase1 extends BaseTest{
 	@Test
 	public void Step1(){
 		//Step 1 - Go to contacts page
+		homePage.waitForBanner();
 		homePage.goToPage("Contact");
 	}
 	
@@ -27,6 +28,7 @@ public class TestCase1 extends BaseTest{
 	@Test
 	public void Step3() {
 		//Step 3 - Validate mandatory field error messages
+		contactsPage.waitForHeaderMsg();
 		contactsPage.assertErrorPresent("Forename");
 		contactsPage.assertErrorPresent("Email");
 		contactsPage.assertErrorPresent("Message");

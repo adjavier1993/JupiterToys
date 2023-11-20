@@ -18,6 +18,8 @@ public class ContactsPage extends BasePage{
 	private String errorMsg = "//div[contains(@class,'controls')]/span[contains(text(),'_ is required')]";
 	private String loadingPopup = "//div[contains(@class,'popup modal')]/descendant::div[contains(@class,'progress')]";
 	private String successMsg = "//div[contains(@class,'success')]";
+	private String welcomeMsg = "//div[contains(@id,'header-message')]";
+	
 	public ContactsPage(WebDriver webDriver, TestData testData) {
 		super(webDriver, testData);
 	}
@@ -33,6 +35,10 @@ public class ContactsPage extends BasePage{
 		elem.sendKeys(inputText);
 	}
 	
+	public void waitForHeaderMsg() {
+		WebElement elem = driver.findElement(By.xpath(welcomeMsg));
+		Commons.waitForElement(elem);
+	}
 
 	/*
 	 * Validate error messages by array of fieldnames

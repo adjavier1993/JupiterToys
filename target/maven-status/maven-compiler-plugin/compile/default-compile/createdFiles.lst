@@ -1,0 +1,11 @@
+com\jupiter\qa\testdata\TestData.class
+com\jupiter\qa\pages\ShopPage.class
+com\jupiter\qa\testdata\DefaultData.class
+com\jupiter\qa\util\ConfigReader.class
+com\jupiter\qa\factory\DriverFactory.class
+com\jupiter\qa\factory\TestFactory.class
+com\jupiter\qa\util\Commons.class
+com\jupiter\qa\pages\ContactsPage.class
+com\jupiter\qa\base\BasePage.class
+com\jupiter\qa\pages\HomePage.class
+com\jupiter\qa\pages\CartPage.class

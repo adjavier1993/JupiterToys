@@ -5,13 +5,20 @@
       <classes>
       <class name="com.qa.jupiter.tests.TestCase1"/>
       </classes>
-  </test> <!-- Test --> 
-   
+  </test> 
+  
    
   <test name="Test Case 2">    
     <classes>
-       <class name="com.qa.jupiter.tests.TestCase1"/>
-    </classes>
-     
-  </test> <!-- Test -->
+       <class name="com.qa.jupiter.tests.TestCase2"/>
+    </classes>  
+  </test>
+  
+  <test name="Test Case 3">
+      <classes>
+      <class name="com.qa.jupiter.tests.TestCase3"/>
+      </classes>
+  </test> 
+  
+  
 </suite> <!-- Suite -->

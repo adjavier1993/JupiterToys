@@ -1,21 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="20" passed="20" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-20T11:32:27 CST" name="Default suite" finished-at="2023-11-20T11:32:36 CST" duration-ms="9483">
+  <suite started-at="2023-11-20T13:31:14 CST" name="Jupiter Toys test suite" finished-at="2023-11-20T13:32:09 CST" duration-ms="55656">
     <groups>
     </groups>
-    <test started-at="2023-11-20T11:32:27 CST" name="Default test" finished-at="2023-11-20T11:32:36 CST" duration-ms="9483">
-      <class name="com.qa.jupiter.tests.TestCase2">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.jupiter.tests.TestCase2@3f6f6701]" started-at="2023-11-20T11:32:27 CST" name="setUp" finished-at="2023-11-20T11:32:32 CST" duration-ms="5652" status="PASS">
+    <test started-at="2023-11-20T13:31:14 CST" name="Test Case 1" finished-at="2023-11-20T13:31:51 CST" duration-ms="37928">
+      <class name="com.qa.jupiter.tests.TestCase1">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.jupiter.tests.TestCase1@3f6f6701]" started-at="2023-11-20T13:31:14 CST" name="setUp" finished-at="2023-11-20T13:31:19 CST" duration-ms="5643" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="Step1()[pri:0, instance:com.qa.jupiter.tests.TestCase2@3f6f6701]" started-at="2023-11-20T11:32:32 CST" name="Step1" finished-at="2023-11-20T11:32:32 CST" duration-ms="114" status="PASS">
+        <test-method signature="Step1()[pri:0, instance:com.qa.jupiter.tests.TestCase1@3f6f6701]" started-at="2023-11-20T13:31:19 CST" name="Step1" finished-at="2023-11-20T13:31:19 CST" duration-ms="133" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Step1 -->
-        <test-method signature="Step2(java.lang.String,java.lang.String)[pri:0, instance:com.qa.jupiter.tests.TestCase2@3f6f6701]" started-at="2023-11-20T11:32:33 CST" name="Step2" data-provider="getData" finished-at="2023-11-20T11:32:33 CST" duration-ms="90" status="PASS">
+        <test-method signature="Step2()[pri:0, instance:com.qa.jupiter.tests.TestCase1@3f6f6701]" started-at="2023-11-20T13:31:19 CST" name="Step2" finished-at="2023-11-20T13:31:20 CST" duration-ms="913" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Step2 -->
+        <test-method signature="Step3()[pri:0, instance:com.qa.jupiter.tests.TestCase1@3f6f6701]" started-at="2023-11-20T13:31:20 CST" name="Step3" finished-at="2023-11-20T13:31:20 CST" duration-ms="89" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Step3 -->
+        <test-method signature="Step4(java.lang.String,java.lang.String)[pri:0, instance:com.qa.jupiter.tests.TestCase1@3f6f6701]" started-at="2023-11-20T13:31:21 CST" name="Step4" data-provider="getData" finished-at="2023-11-20T13:31:21 CST" duration-ms="67" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Forename]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Alfonso]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Step4 -->
+        <test-method signature="Step4(java.lang.String,java.lang.String)[pri:0, instance:com.qa.jupiter.tests.TestCase1@3f6f6701]" started-at="2023-11-20T13:31:21 CST" name="Step4" data-provider="getData" finished-at="2023-11-20T13:31:21 CST" duration-ms="133" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Email]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chaldran2582@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Step4 -->
+        <test-method signature="Step4(java.lang.String,java.lang.String)[pri:0, instance:com.qa.jupiter.tests.TestCase1@3f6f6701]" started-at="2023-11-20T13:31:21 CST" name="Step4" data-provider="getData" finished-at="2023-11-20T13:31:21 CST" duration-ms="74" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Message]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Happy holidays]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Step4 -->
+        <test-method signature="Step5()[pri:0, instance:com.qa.jupiter.tests.TestCase1@3f6f6701]" started-at="2023-11-20T13:31:21 CST" name="Step5" finished-at="2023-11-20T13:31:51 CST" duration-ms="30134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Step5 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.jupiter.tests.TestCase1@3f6f6701]" started-at="2023-11-20T13:31:51 CST" name="tearDown" finished-at="2023-11-20T13:31:51 CST" duration-ms="115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.jupiter.tests.TestCase1 -->
+    </test> <!-- Test Case 1 -->
+    <test started-at="2023-11-20T13:31:52 CST" name="Test Case 2" finished-at="2023-11-20T13:32:00 CST" duration-ms="8388">
+      <class name="com.qa.jupiter.tests.TestCase2">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.jupiter.tests.TestCase2@15bb5034]" started-at="2023-11-20T13:31:52 CST" name="setUp" finished-at="2023-11-20T13:31:57 CST" duration-ms="5256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Step1()[pri:0, instance:com.qa.jupiter.tests.TestCase2@15bb5034]" started-at="2023-11-20T13:31:57 CST" name="Step1" finished-at="2023-11-20T13:31:57 CST" duration-ms="359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Step1 -->
+        <test-method signature="Step2(java.lang.String,java.lang.String)[pri:0, instance:com.qa.jupiter.tests.TestCase2@15bb5034]" started-at="2023-11-20T13:31:57 CST" name="Step2" data-provider="getData" finished-at="2023-11-20T13:31:57 CST" duration-ms="244" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -31,7 +107,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Step2 -->
-        <test-method signature="Step2(java.lang.String,java.lang.String)[pri:0, instance:com.qa.jupiter.tests.TestCase2@3f6f6701]" started-at="2023-11-20T11:32:33 CST" name="Step2" data-provider="getData" finished-at="2023-11-20T11:32:33 CST" duration-ms="98" status="PASS">
+        <test-method signature="Step2(java.lang.String,java.lang.String)[pri:0, instance:com.qa.jupiter.tests.TestCase2@15bb5034]" started-at="2023-11-20T13:31:57 CST" name="Step2" data-provider="getData" finished-at="2023-11-20T13:31:58 CST" duration-ms="86" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -47,7 +123,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Step2 -->
-        <test-method signature="Step2(java.lang.String,java.lang.String)[pri:0, instance:com.qa.jupiter.tests.TestCase2@3f6f6701]" started-at="2023-11-20T11:32:33 CST" name="Step2" data-provider="getData" finished-at="2023-11-20T11:32:33 CST" duration-ms="74" status="PASS">
+        <test-method signature="Step2(java.lang.String,java.lang.String)[pri:0, instance:com.qa.jupiter.tests.TestCase2@15bb5034]" started-at="2023-11-20T13:31:58 CST" name="Step2" data-provider="getData" finished-at="2023-11-20T13:31:58 CST" duration-ms="74" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -63,19 +139,95 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Step2 -->
-        <test-method signature="Step3()[pri:0, instance:com.qa.jupiter.tests.TestCase2@3f6f6701]" started-at="2023-11-20T11:32:33 CST" name="Step3" finished-at="2023-11-20T11:32:33 CST" duration-ms="78" status="PASS">
+        <test-method signature="Step3()[pri:0, instance:com.qa.jupiter.tests.TestCase2@15bb5034]" started-at="2023-11-20T13:31:58 CST" name="Step3" finished-at="2023-11-20T13:31:58 CST" duration-ms="96" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Step3 -->
-        <test-method signature="Step4()[pri:0, instance:com.qa.jupiter.tests.TestCase2@3f6f6701]" started-at="2023-11-20T11:32:33 CST" name="Step4" finished-at="2023-11-20T11:32:36 CST" duration-ms="2660" status="PASS">
+        <test-method signature="Step4()[pri:0, instance:com.qa.jupiter.tests.TestCase2@15bb5034]" started-at="2023-11-20T13:31:58 CST" name="Step4" finished-at="2023-11-20T13:32:00 CST" duration-ms="2137" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Step4 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.jupiter.tests.TestCase2@3f6f6701]" started-at="2023-11-20T11:32:36 CST" name="tearDown" finished-at="2023-11-20T11:32:36 CST" duration-ms="98" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.jupiter.tests.TestCase2@15bb5034]" started-at="2023-11-20T13:32:00 CST" name="tearDown" finished-at="2023-11-20T13:32:00 CST" duration-ms="90" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.qa.jupiter.tests.TestCase2 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test Case 2 -->
+    <test started-at="2023-11-20T13:32:00 CST" name="Test Case 3" finished-at="2023-11-20T13:32:09 CST" duration-ms="9210">
+      <class name="com.qa.jupiter.tests.TestCase3">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.jupiter.tests.TestCase3@173ed316]" started-at="2023-11-20T13:32:00 CST" name="setUp" finished-at="2023-11-20T13:32:06 CST" duration-ms="6062" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Step1(java.lang.String,java.lang.String)[pri:0, instance:com.qa.jupiter.tests.TestCase3@173ed316]" started-at="2023-11-20T13:32:06 CST" name="Step1" data-provider="getData" finished-at="2023-11-20T13:32:07 CST" duration-ms="642" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Stuffed Frog]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Step1 -->
+        <test-method signature="Step1(java.lang.String,java.lang.String)[pri:0, instance:com.qa.jupiter.tests.TestCase3@173ed316]" started-at="2023-11-20T13:32:07 CST" name="Step1" data-provider="getData" finished-at="2023-11-20T13:32:07 CST" duration-ms="284" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Fluffy Bunny]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Step1 -->
+        <test-method signature="Step1(java.lang.String,java.lang.String)[pri:0, instance:com.qa.jupiter.tests.TestCase3@173ed316]" started-at="2023-11-20T13:32:07 CST" name="Step1" data-provider="getData" finished-at="2023-11-20T13:32:07 CST" duration-ms="218" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Valentine Bear]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Step1 -->
+        <test-method signature="Step2()[pri:0, instance:com.qa.jupiter.tests.TestCase3@173ed316]" started-at="2023-11-20T13:32:07 CST" name="Step2" finished-at="2023-11-20T13:32:07 CST" duration-ms="240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Step2 -->
+        <test-method signature="Step3()[pri:0, instance:com.qa.jupiter.tests.TestCase3@173ed316]" started-at="2023-11-20T13:32:07 CST" name="Step3" finished-at="2023-11-20T13:32:08 CST" duration-ms="524" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Step3 -->
+        <test-method signature="Step4()[pri:0, instance:com.qa.jupiter.tests.TestCase3@173ed316]" started-at="2023-11-20T13:32:08 CST" name="Step4" finished-at="2023-11-20T13:32:09 CST" duration-ms="818" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Step4 -->
+        <test-method signature="Step5()[pri:0, instance:com.qa.jupiter.tests.TestCase3@173ed316]" started-at="2023-11-20T13:32:09 CST" name="Step5" finished-at="2023-11-20T13:32:09 CST" duration-ms="286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Step5 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.jupiter.tests.TestCase3@173ed316]" started-at="2023-11-20T13:32:09 CST" name="tearDown" finished-at="2023-11-20T13:32:09 CST" duration-ms="82" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.jupiter.tests.TestCase3 -->
+    </test> <!-- Test Case 3 -->
+  </suite> <!-- Jupiter Toys test suite -->
 </testng-results>

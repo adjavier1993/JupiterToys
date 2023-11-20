@@ -14,6 +14,7 @@ public class HomePage extends BasePage{
 	//private WebDriver driver;
 	
 	private String menuBtn = "//a[contains(text(),'_')]";
+	private String jupiterBanner = "//div[contains(@class,'hero-unit')]";
 	
 	public HomePage(WebDriver webDriver, TestData testData) {
 		super(webDriver, testData);
@@ -28,16 +29,14 @@ public class HomePage extends BasePage{
 	 */
 	public void goToPage(String pageName) {
 		WebElement elem = driver.findElement(By.xpath(menuBtn.replace("_", pageName)));
-		Commons.waitForElement(driver, elem);
+		Commons.waitUntilElemIsClickable(elem);
 		elem.click();
 	}
 	
-//	public ContactsPage goToContactsPage(String pageName) {
-//		WebElement elem = driver.findElement(By.xpath(menuBtn.replace("_", pageName)));
-//		Commons.waitForElement(driver, elem);
-//		elem.click();
-//		return new ContactsPage(driver);
-//	}
+	public void waitForBanner() {
+		WebElement elem = driver.findElement(By.xpath(jupiterBanner));
+		Commons.waitForElement(elem);
+	}
 
 }
 

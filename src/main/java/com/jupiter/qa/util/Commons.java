@@ -48,7 +48,10 @@ public class Commons {
 	}
 	
 	public static void waitUntilElemIsClickable(WebElement webElement) {
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofMillis(500));
+		FluentWait<WebDriver> wait = new FluentWait<>(driver)
+	            .withTimeout(Duration.ofSeconds(30))
+	            .pollingEvery(Duration.ofMillis(500))
+	            .ignoring(NoSuchElementException.class);
 		wait.until(ExpectedConditions.elementToBeClickable(webElement));
 	}
 	
